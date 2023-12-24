@@ -1,0 +1,126 @@
+body {
+     
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+        color: #333;
+        
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.about-section,
+.departments-section,
+.courses-section,
+.admissions-section,
+.contact-section,
+.vision-mission-section {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.about-section h2,
+.departments-section h2,
+.courses-section h2,
+.admissions-section h2,
+.contact-section h2,
+.vision-mission-section h2 {
+    color: #333;
+}
+
+.about-section p,
+.departments-section p,
+.courses-section p,
+.admissions-section p,
+.contact-section p,
+.vision-mission-section p {
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.departments-section .department h3,
+.vision-mission-section .vision h3,
+.vision-mission-section .mission h3 {
+    color: #e74c3c;
+}
+
+.vision-mission-section .mission ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.vision-mission-section .mission li {
+    margin-bottom: 10px;
+}
+
+.courses-section .course h3 {
+    color: #3498db;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #1a6bb8;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
